@@ -1,0 +1,1 @@
+url = 'https://suumo.jp/chintai/bc_100314857203/'
