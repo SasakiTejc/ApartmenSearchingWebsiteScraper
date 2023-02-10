@@ -1,7 +1,8 @@
+import ClosedDatas
 import requests
 from bs4 import BeautifulSoup
 
-url = 'https://suumo.jp/chintai/bc_100314857203/'
+url = ClosedDatas.url
 
 response = requests.get(url)
 response.encoding = response.apparent_encoding
